@@ -1,0 +1,14 @@
+{
+  "education_name": "MLOps Engineer",
+  "program_description": "Utbildningen ger spetskompetens inom maskininlärning och MLOps och lär dig bygga, driftsätta och optimera AI-modeller i praktiken. Du arbetar med verktyg som TensorFlow, PyTorch samt CI/CD‑pipelines, versionshantering, säkerhet och edge computing. Programmet innehåller minst en fjärdedel LIA‑praktik på företag och bedrivs på heltid med cirka 40 studietimmar per vecka.",
+  "carrer_options": [
+    "MLOps Engineer"
+  ],
+  "courses": [
+    "Affärsmannaskap",
+    "AI-förstärkt kunskapsstrategi och hybrida AI-team",
+    "Databashantering",
+    "Edge computing"
+  ],
+  "length": 2.0
+}
