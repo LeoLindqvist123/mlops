@@ -5,6 +5,12 @@ class ChatRequest(BaseModel):
     question: str = Field(description="users message or question to JokeBot")
     message_history: list[ModelMessage] = []
 
+    model_config = {
+        "json_schema_extra": {
+            "example": {"question": "write a joke about göteborg"}
+        }
+    }
+
 class ChatResponse(BaseModel):
     response: str = Field(description="JokeBots response with programming joke and emojis")
     message_history: list[ModelMessage]
