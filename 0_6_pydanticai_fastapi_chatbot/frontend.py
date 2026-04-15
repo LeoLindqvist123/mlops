@@ -27,7 +27,7 @@ def handle_user_input():
     # := is the walrus operator <->
     # prompt = st.chat_input("Talk to JokeBot")
     # if prompt:
-    if prompt := st.chat_input("Talk to JokeBot"):
+    if prompt := st.chat_input("Talk to Leo"):
         # user prompt save to session state
         st.session_state.messages.append({"role": "user", "content": prompt})
 
@@ -52,9 +52,9 @@ def handle_user_input():
         st.session_state.messages.append({"role": "assistant", "content": bot_response})
 
 def layout():
-    st.markdown("# Chat with Ro Båt")
+    st.markdown("# Chat with Leo")
     st.markdown(
-        "RO BÅT is a funny robot that can help you out with programming tasks. However he doesn't directly answer your question, usually he asks another question back."
+        "Leo is a funny robot that can help you out with programming tasks. However he doesn't directly answer your question, usually he asks another question back."
     )
     display_chat_messages()
     handle_user_input()
